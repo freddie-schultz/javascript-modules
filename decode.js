@@ -3,7 +3,7 @@ export function decode(codedText) {
 
   for (let i in codedText) {
     let codedCharacter = codedText.charCodeAt(i)
-    let plainCharacter = String.fromCharCode(codedCharacter)
+    let plainCharacter = String.fromCharCode(codedCharacter - 9)
     plainText += plainCharacter
   }
 
