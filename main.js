@@ -1,4 +1,5 @@
 import { encode } from './encode.js'
+import { decode } from './decode.js'
 
 const input = document.getElementById('plainTextArea')
 const output = document.getElementById('codedText')
